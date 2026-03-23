@@ -14,9 +14,9 @@ SECRET_KEY = config(
 )
 
 
-DEBUG = True
+DEBUG = false
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['venture-nest-3.onrender.com', 'localhost', '127.0.0.1']
 
 
 # ==========================
